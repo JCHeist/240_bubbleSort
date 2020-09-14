@@ -1,0 +1,27 @@
+Jasper Heist
+CSCI240
+8/27/18
+
+Goal- To organize an array numerically
+
+Input- An array of integers in a random order
+
+Output- An array with the integers ordered
+
+Steps- 
+
+1)get an array of numbers
+
+2)compare the integer at the 0 index with the integer next to it
+
+3)if it is larger than the number to the right, swap the value
+
+4)compare each number with the number next to it string length minus 1 times to go through each pair
+             -the last number will now be the highest. so you dont have to compare the last element in the array
+	     -print elements in proper formatting each pass through
+
+5)compare each pair in ehe array and swap them if the one on the left is larger
+
+6)compare the elements to each other again and switch them as you go down the line until you go through the whole array
+
+7)after going through all of the array and it is sorted, print final sorted product

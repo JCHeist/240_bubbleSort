@@ -1,0 +1,70 @@
+Jasper Heist
+CSCI240
+8/27/18
+
+Goal- To organize an array numerically
+
+Input- An array of integers in a random order
+
+Output- An array with the integers ordered
+
+Steps- 
+
+main(){
+	ask user if they would like to set an array of numbers themselves or use a random set of numbers
+
+	ask how long they would like the array  to be. have them enter teh numbers if they would like or generate a random amount of numbers if they would like
+	
+	use input number to be the length of the array to be used in the program
+
+	go to menu
+
+}
+
+menu(){
+	
+	ask user how they would like to sort their array (merge, bubble, selection) and send them there
+
+}
+
+
+**while doing all sorting methods, keep track of the cycles it takes to sort the array and 
+
+insertionS(){
+
+	set marker to be at the first index... everything to the right of the marker is considered un sorted
+	
+	move marker up one index. if the value of the number on the right is smaller, swap it with the number on the left
+
+	again if the number on the left is larger, swap it until it is larger than the number next to it
+
+	do this all the way down the loop	
+
+}
+
+
+bubbleS(){
+
+	compare each index to the index next to it (run through the loop n - 1 times
+
+	dont compare n - 1 index each successive time since it is already in the right order
+
+}
+
+
+selectionS(){
+
+	set a variable to equal the smallest value as you move across the array
+
+	at end of array, swap smallest value found with the number at the 0th index
+
+	repeat, not scaning the n index and replace the 0 + 1 index witht the smallest number left
+
+}
+
+
+printValues(){
+
+	print all values out in an array looking format
+
+}
